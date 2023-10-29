@@ -1,0 +1,57 @@
+/* Alapértelmezett stílusok */
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: #8dbfe8;
+}
+
+form {
+    margin: 20px auto;
+}
+
+label {
+    font-size: 1.1rem;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 6px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Időjárás információk */
+#weather {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 360px;
+}
+
+#weather p {
+    margin: 0;
+}
+
+#weather-icon {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+}
+
+#description {
+    font-weight: bold;
+}
+
+#temperature {
+    font-size: 1.5rem;
+}
