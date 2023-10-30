@@ -1,4 +1,4 @@
-import { APIkey } from './config.js';
+const APIkey = '2a2b620e45790ec1f74f3a48ec046c24';
 const description = document.getElementById('description');
 const temperature = document.getElementById('temperature');
 const weatherIcon = document.getElementById('weather-icon');
