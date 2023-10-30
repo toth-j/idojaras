@@ -1,4 +1,4 @@
-const APIkey = '2a2b620e45790ec1f74f3a48ec046c24';
+import { APIkey } from './config.js';
 const description = document.getElementById('description');
 const temperature = document.getElementById('temperature');
 const weatherIcon = document.getElementById('weather-icon');
@@ -13,7 +13,7 @@ function fetchWeatherData() {
             if (response.ok) {
                 return response.json();
             } else {
-                throw new Error('Status code: '+response.status);
+                throw new Error('Status code: ' + response.status);
             }
         })
         .then(data => {
